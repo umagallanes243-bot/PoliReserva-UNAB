@@ -1,0 +1,109 @@
+# ==========================================
+# POLIRESERVA UNAB
+# ==========================================
+
+# Credenciales y configuraciones privadas
+.env
+.env.*
+client_secret*.json
+credentials.json
+service_account*.json
+token.json
+tokens.json
+*.pem
+*.key
+*.pfx
+
+# Archivos y configuraciones de inteligencia artificial
+.agents/
+.codex/
+.claude/
+.cursor/
+.github/copilot-instructions.md
+
+# Documentacion interna y guias de IA
+docs/
+AGENTS.md
+*.md
+
+# Unica guia permitida
+!/README.md
+
+# Sesiones y almacenamiento de NiceGUI
+.nicegui/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Archivos generados por Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Configuracion local
+.vscode/
+.idea/
+
+# Archivos temporales de pruebas
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Copias de seguridad
+backups/
+backup/
+*.bak
+*.dump
+*.sql.gz
+
+# Archivos temporales
+*.log
+*.tmp
+*.temp
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos generados
+build/
+dist/
+*.egg-info/
+
+# Guias y configuraciones de IA
+.agents/
+.codex/
+.cursor/
+.claude/
+AGENTS.md
+docs/
+*.md
+
+# Unica guia publica
+!/README.md
+
+# Sesiones privadas
+.nicegui/
+
+# Credenciales
+client_secret*.json
+credentials.json
+token*.json
+*.pem
+*.key
+
+# Copias de seguridad
+backups/
+backup/
+*.bak
+*.dump
+*.sql.gz
+
+# Registros y temporales
+*.log
+*.tmp
+.pytest_cache/
